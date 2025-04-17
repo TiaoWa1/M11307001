@@ -59,3 +59,7 @@ sudo iptables -A FORWARD -p tcp -d 192.168.49.2 --dport 30007 -j ACCEPT
 ![image](https://github.com/user-attachments/assets/9dad7bdb-514e-4504-a946-2a209a2968da)
 
 </code></pre>
+
+![image](https://github.com/user-attachments/assets/334c13ed-e090-44cc-9868-de967859f764)
+
+![image](https://github.com/user-attachments/assets/7c6d74c5-1c5f-46ec-b80e-5a96a2f826d4)
