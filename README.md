@@ -41,7 +41,8 @@ docker push tiaowa8165/id-app:latest</code></pre>
 ![image](https://github.com/user-attachments/assets/6d3bf552-0ad2-4875-8c2a-6a2c4c166bcb)
 
 <h2>七、EC2 上設置 iptables 讓外網連得進來</h2>
- <pre><code>F# 1. 將外部 port 80 導向 Minikube VM
+ <pre><code>
+# 1. 將外部 port 80 導向 Minikube VM
 sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j DNAT --to-destination 192.168.49.2:30007
 
 # 2. 讓回傳封包能順利出去
