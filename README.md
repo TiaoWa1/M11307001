@@ -18,5 +18,17 @@ sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-a
 minikube version
 minikube start --driver=docker
 </code></pre>
-
-  <p>安裝完成後，您即可在本機啟動 Kubernetes 環境。</p>
+<h2>四、設計前端頁面
+  <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="zh-Hant"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8" /&gt;
+  &lt;title&gt;學號頁面&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;我的學號&lt;/h1&gt;
+  &lt;div class="student-id"&gt;M11307001&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+  </code></pre>
