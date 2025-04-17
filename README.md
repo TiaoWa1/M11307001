@@ -37,3 +37,5 @@ docker push tiaowa8165/id-app:latest</code></pre>
 ![image](https://github.com/user-attachments/assets/99b67bbf-8745-4375-bb4e-769388647085)
 
 ![image](https://github.com/user-attachments/assets/6d3bf552-0ad2-4875-8c2a-6a2c4c166bcb)
+
+![image](https://github.com/user-attachments/assets/261d23f1-05d3-4b36-bccd-8a0c2fba0f03)
