@@ -51,8 +51,11 @@ sudo iptables -t nat -A POSTROUTING -j MASQUERADE
 
 # 3. 放行封包穿越主機
 sudo iptables -A FORWARD -p tcp -d 192.168.49.2 --dport 30007 -j ACCEPT
-</code></pre>
 
+# 4. 新增傳入規則
 ![image](https://github.com/user-attachments/assets/e1b9bae9-22c9-4c69-b8e9-8bb451dac4c3)
 
-![image](https://github.com/user-attachments/assets/261d23f1-05d3-4b36-bccd-8a0c2fba0f03)
+# 5. 連線http://<EC2公有ip>
+![image](https://github.com/user-attachments/assets/9dad7bdb-514e-4504-a946-2a209a2968da)
+
+</code></pre>
