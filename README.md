@@ -20,6 +20,15 @@ minikube start --driver=docker
 </code></pre>
 <h2>四、前端頁面與Dockerfile</h2>
   <pre><code>
-    FROM nginx:alpine
+FROM nginx:alpine
 COPY index.html /usr/share/nginx/html/index.html
   </code></pre>
+
+<h2>五、建立映像與上傳至 Docker Hub</h2>
+<p>使用下列指令將前端頁面包成映像檔並推送到 Docker Hub：</p>
+<pre><code>
+docker build -t tiaowa8165/id-app .
+docker tag tiaowa8165/id-app tiaowa8165/id-app:latest
+docker push tiaowa8165/id-app:latest
+</code></pre>
+
