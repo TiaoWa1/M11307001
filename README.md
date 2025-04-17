@@ -1,5 +1,3 @@
-<h1>Ubuntu 安裝指南：Docker、kubectl 與 Minikube</h1>
-
   <h2>一、安裝 Docker</h2>
   <pre><code>sudo apt update
 sudo apt install -y apt-transport-https ca-certificates curl
