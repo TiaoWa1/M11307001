@@ -33,3 +33,7 @@ docker push tiaowa8165/id-app:latest</code></pre>
 <p>透過以下指令，將部署設定 <code>deployment.yaml</code> 和服務設定 <code>service.yaml</code> 套用至 Kubernetes 叢集中：</p>
 
 ![image](https://github.com/user-attachments/assets/b91c4543-acbc-4723-bd09-830c3a35372b)
+
+![image](https://github.com/user-attachments/assets/99b67bbf-8745-4375-bb4e-769388647085)
+
+![image](https://github.com/user-attachments/assets/6d3bf552-0ad2-4875-8c2a-6a2c4c166bcb)
