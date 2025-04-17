@@ -29,3 +29,4 @@ COPY index.html /usr/share/nginx/html/index.html</code></pre>
 docker tag tiaowa8165/id-app tiaowa8165/id-app:latest
 docker push tiaowa8165/id-app:latest</code></pre>
 
+![image](https://github.com/user-attachments/assets/89fd81f0-8d6d-4e8d-85e7-fb357e326044)
