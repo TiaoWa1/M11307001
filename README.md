@@ -1,9 +1,5 @@
-<a href="https://hub.docker.com/r/tiaowa8165/id-app/tags" target="_blank"
-   style="text-decoration:none; background-color:#0db7ed; color:white; padding:0.75rem 1.5rem; border-radius:50px; font-weight:bold; display:inline-flex; align-items:center;">
-  <img src="https://raw.githubusercontent.com/docker-library/docs/master/docker/logo.png" alt="Docker Logo"
-       style="height:1.4rem; margin-right:0.6rem;">
-  映像檔案
-</a>
+<a href="https://hub.docker.com/r/tiaowa8165/id-app/tags" target="_blank">🐳 映像檔案</a>
+
 
   <h2>一、安裝 Docker</h2>
   <pre><code>sudo apt update
