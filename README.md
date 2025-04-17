@@ -18,7 +18,8 @@ sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-a
 minikube version
 minikube start --driver=docker
 </code></pre>
-<h2>四、前端頁面與Dockerfile</h2>
+<h2>四、將前端頁面與Dockerfile建立完成</h2>
+<p>Docker File:</p>
   <pre><code>FROM nginx:alpine
 COPY index.html /usr/share/nginx/html/index.html
   </code></pre>
