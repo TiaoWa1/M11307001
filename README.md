@@ -49,7 +49,8 @@ sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j DNAT --to-destination 19
 sudo iptables -t nat -A POSTROUTING -j MASQUERADE
 
 # 3. 放行封包穿越主機
-sudo iptables -A FORWARD -p tcp -d 192.168.49.2 --dport 30007 -j ACCEPT</code></pre>
+sudo iptables -A FORWARD -p tcp -d 192.168.49.2 --dport 30007 -j ACCEPT
+</code></pre>
 
 ![image](https://github.com/user-attachments/assets/e1b9bae9-22c9-4c69-b8e9-8bb451dac4c3)
 
