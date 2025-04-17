@@ -29,4 +29,6 @@ COPY index.html /usr/share/nginx/html/index.html</code></pre>
 docker tag tiaowa8165/id-app tiaowa8165/id-app:latest
 docker push tiaowa8165/id-app:latest</code></pre>
 
+<h2>六、部署應用與建立服務</h2>
+<p>透過以下指令，將部署設定 <code>deployment.yaml</code> 和服務設定 <code>service.yaml</code> 套用至 Kubernetes 叢集中：</p>
 ![image](https://github.com/user-attachments/assets/89fd81f0-8d6d-4e8d-85e7-fb357e326044)
