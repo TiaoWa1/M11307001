@@ -1,31 +1,4 @@
-<!DOCTYPE html>
-<html lang="zh-Hant">
-<head>
-  <meta charset="UTF-8">
-  <title>README：安裝 Docker、kubectl 與 Minikube</title>
-  <style>
-    body {
-      font-family: "Segoe UI", sans-serif;
-      background-color: #f9f9f9;
-      padding: 2rem;
-      line-height: 1.6;
-    }
-    h1, h2 {
-      color: #2c3e50;
-    }
-    pre {
-      background-color: #eee;
-      padding: 1rem;
-      border-radius: 5px;
-      overflow-x: auto;
-    }
-    code {
-      color: #c7254e;
-    }
-  </style>
-</head>
-<body>
-  <h1>Ubuntu 安裝指南：Docker、kubectl 與 Minikube</h1>
+<h1>Ubuntu 安裝指南：Docker、kubectl 與 Minikube</h1>
 
   <h2>一、安裝 Docker</h2>
   <pre><code>sudo apt update
@@ -49,5 +22,3 @@ minikube start --driver=docker
 </code></pre>
 
   <p>安裝完成後，您即可在本機啟動 Kubernetes 環境。</p>
-</body>
-</html>
